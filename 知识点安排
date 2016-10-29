@@ -1,0 +1,32 @@
+1.知识点总体结构
+  电子电路原理 编程（Arduino）  
+
+官方教程知识点详细图：
+第一集：了解您的工具
+  涉及：Arduino Vcc Gnd led register switch breadboard
+  
+第二集：太空船的介绍
+  涉及：Arduino-digital-pin pinMode() digitalRead() digitalWrite() HIGH LOW if语句 变量定义使用  
+  
+第三集：LOVE-O-METE
+  涉及：Arduino-analogIn-pin analogRead() Serial.println() for语句 if语句 温度传感器
+  
+第四集：光学特雷门
+  涉及：tone() 蜂鸣器 光传感器 比较难一点的程序设计
+
+
+引论：
+  1.什么是创客？
+    创意 -> 实现， 实现需要技能， 哪些技能呢？
+    以简易机器人为例：
+         机器人
+           |
+  |--------|----------|                        
+ 传感器   控制器    执行机构          控制器-----通过程序控制------>执行结构
+（感官）   （大脑）   （身体）         控制器-----通过程序获取------>传感器
+    
+    使用的控制器：Arduino （介绍Arduino 为什么学习Arduino）
+    1.开源硬件，有大量的支持资料
+    2.在创客圈中很流行，是创客的标记
+    Arduino有各种型号的板子，展示一下UNO和MEGA，学习UNO作为入门
+    
