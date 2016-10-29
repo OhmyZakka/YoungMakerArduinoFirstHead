@@ -1,1 +1,17 @@
-
+Arduino官方十集教程的总结
+（前4集讲透了作为入门教程就可以了。基本上设计了arduino所有的管脚和常规使用）
+1.了解您的工具
+  内容：Arduino Vcc-5v 连接led 和 register 和 switch 回到gnd， 实现开关控制le灯。串联并联两个开关控制一个灯。
+  涉及：Arduino Vcc Gnd led register switch breadboard
+  
+2.太空船的介绍
+  内容：Arduino 连接过个led，通过一个开关来实现跑马灯的开关。
+  涉及：Arduino-digital-pin pinMode() digitalRead() digitalWrite() HIGH LOW if语句 变量定义使用  
+  
+3.LOVE-O-METE
+  内容：Arduino 连接一个温度传感器， 通过显示灯亮的个数显示温度高低。同时通过Serial将温度显示在电脑上。用for定义管脚。
+  涉及：Arduino-analogIn-pin analogRead() Serial.println() for语句 if语句 温度传感器
+  
+4.光学特雷门
+  内容：Arduino 连接一个蜂鸣器和一个光传感器，通过改变手的位置改变光传感器的输入实现对蜂鸣器的控制。
+  涉及：tone() 蜂鸣器 光传感器 比较难一点的程序设计
