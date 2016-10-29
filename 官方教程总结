@@ -1,5 +1,5 @@
 Arduino官方十集教程的总结
-（前4集讲透了作为入门教程就可以了。基本上设计了arduino所有的管脚和常规使用）
+（前4集讲透了作为入门教程就可以了。基本上涉及了arduino所有的管脚和常规使用）
 1.了解您的工具
   内容：Arduino Vcc-5v 连接led 和 register 和 switch 回到gnd， 实现开关控制le灯。串联并联两个开关控制一个灯。
   涉及：Arduino Vcc Gnd led register switch breadboard
